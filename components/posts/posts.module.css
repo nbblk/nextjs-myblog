@@ -1,0 +1,49 @@
+.posts {
+    width: 100%;
+    font-size: 21pt;
+    margin-top: 6rem;
+    list-style: none;
+}
+
+.postLink {
+    text-align: left;
+    width: 100%;
+    margin: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postLink a {
+    text-decoration: underline;
+    color: #000;
+    margin-right: 10rem;
+}
+
+.postLink a:hover {
+    color: var(--border-color);
+}
+
+.date {
+    text-align: right;
+    font-size: 12pt;
+    font-family: serif;
+    font-style: italic;
+}
+
+@media(max-width: 450px) {
+    .postLink {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem 0;
+    }
+
+    .postLink a {
+        margin-right: 0;
+    }
+
+    .postLink, .date {
+        text-align: center;
+    }
+}

@@ -1,0 +1,29 @@
+.about {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imgWrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.pic {
+  width: 150px;
+  height: 150px;
+}
+
+.description {
+  margin: 2rem;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2rem;
+}

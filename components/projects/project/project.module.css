@@ -1,0 +1,37 @@
+.post {
+  margin: 2rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center; 
+  text-transform: uppercase;
+}
+
+.imgWrapper {
+  width: 16rem;
+  height: 16rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.subtitle {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.subtitle small {
+  margin-right: 1rem;
+}
