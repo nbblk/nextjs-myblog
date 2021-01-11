@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Posts from '../components/posts/posts';
+import Posts from '../components/Posts/Posts';
 import { getSortedPostsData } from '../lib/posts';
 import Layout from '../components/layout';
 
