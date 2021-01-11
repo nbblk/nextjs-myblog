@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
 import Link from "next/link";
 

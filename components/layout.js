@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "./header/header";
-import Sidebar from "./sidebar/sidebar";
+import Header from "./Header/Header";
+import Sidebar from "./Sidebar/Sidebar";
 
 import styles from '../styles/home.module.css';
 
@@ -14,9 +14,6 @@ export default function Layout({ children, home, about }) {
       <Header />
       <Sidebar />
       <main className={styles.main}>{children}</main>
-      {/* {!home && !about ? (
-        
-      ) : null} */}
     </div>
   );
 }

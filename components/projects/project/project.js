@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import styles from "./project.module.css";
+import styles from "./Project.module.css";
 
 const project = (props) => {
   return (
