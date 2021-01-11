@@ -1,7 +1,7 @@
 import React from "react";
-import Project from "./Project/Project";
+import Project from "./project/project";
 
-import styles from "./Projects.module.css";
+import styles from "./projects.module.css";
 
 const projects = (props) => {
   return (

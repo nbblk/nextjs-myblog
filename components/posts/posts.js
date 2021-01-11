@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./Posts.module.css";
+import styles from "./posts.module.css";
 import Link from "next/link";
 
 const posts = (props) => {
