@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "./header/header";
 import Sidebar from "./sidebar/sidebar";
-import Link from "next/link";
 
 import styles from '../styles/home.module.css';
 

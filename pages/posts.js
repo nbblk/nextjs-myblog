@@ -1,5 +1,5 @@
 import Posts from "../components/Posts/Posts";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 import { getSortedPostsData } from "../lib/posts";
 import styles from "../styles/home.module.css";
