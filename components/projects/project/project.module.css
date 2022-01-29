@@ -11,18 +11,16 @@
   text-transform: uppercase;
 }
 
-.imgWrapper {
-  width: 16rem;
-  height: 16rem;
-  margin: 1.5rem;
-  border-radius: 50%;
-  border: 1px solid black;
-  overflow: hidden;
+.img {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid #000;
 }
 
-.arrow {
-  width: 30px;
-  height: 30px;
+.imgWrapper {
+  width: 20rem;
+  margin: 1.5rem;
+  overflow: hidden;
 }
 
 .subtitle {

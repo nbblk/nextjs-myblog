@@ -8,42 +8,16 @@ const project = (props) => {
     <section className={styles.post}>
       <h3 className={styles.title}>{props.title}</h3>
       <div className={styles.imgWrapper}>
-        <img className={styles.img} src={props.src} alt="alt text"></img>
+        <a href={props.link}>
+          <div className={styles.dim}>
+          <img className={styles.img} src={props.img} alt={props.title}></img>
+          </div>
+        </a>
       </div>
       <div className={styles.subtitle}>
-          <small>Read More</small>
-        <Link href={"/projects/" + props.id}>
-     
-        <svg className={styles.arrow}>
-          <line
-            x1="0"
-            y1="0"
-            x2="15"
-            y2="15"
-            stroke="#000"
-            strokeWidth="1"
-            markerEnd="url(#arrowhead)"
-          />
-          <line
-            x1="0"
-            y1="15"
-            x2="15"
-            y2="15"
-            stroke="#000"
-            strokeWidth="1"
-            markerEnd="url(#arrowhead)"
-          />
-          <line
-            x1="15"
-            y1="15"
-            x2="0"
-            y2="-500"
-            stroke="#000"
-            strokeWidth="1"
-            markerEnd="url(#arrowhead)"
-          />
-        </svg>
-        </Link>
+        <a href={props.readme}>
+          <small>Read more</small>
+        </a>
       </div>
     </section>
   );
