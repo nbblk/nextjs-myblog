@@ -1,6 +1,6 @@
 .toggler {
     display: block;
-    position: relative;
+    position: fixed;
     top: 31px;
     left: 0px;
     z-index: 1;
@@ -96,7 +96,7 @@
 
 @media(max-width: 450px) {
     .items {
-        width: 100%;
+        width: 100vw;
         height: 20vh;
         text-align: center;
         transform: translate(0%, -150%);

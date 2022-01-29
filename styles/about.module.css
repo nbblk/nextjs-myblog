@@ -9,21 +9,28 @@
 }
 
 .imgWrapper {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  border: 1px solid #000;
-  overflow: hidden;
+  width: 300px;
+  height: 300px;
 }
 
 .pic {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
 }
 
 .description {
-  margin: 2rem;
-  font-size: 20px;
-  text-align: center;
+  margin: 2rem 25%;
+  font-size: 18px;
+  text-align: left;
   line-height: 2rem;
+}
+
+@media (max-width: 450px) {
+  .description {
+    margin: 2rem;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2rem;
+  }
 }
