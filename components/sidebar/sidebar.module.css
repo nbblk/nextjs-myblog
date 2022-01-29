@@ -72,6 +72,7 @@
     border: 1px solid var(--border-color);
     background-color: var(--background-color);
     text-align: left;
+    font-size: 1.5rem;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0%);
