@@ -1,0 +1,12 @@
+.posts {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.loader {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

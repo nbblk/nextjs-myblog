@@ -2,7 +2,7 @@ import Posts from '../components/posts/posts';
 import { getSortedPostsData } from '../lib/posts';
 import Layout from '../components/layout';
 
-import styles from '../styles/Home.module.css';
+import styles from '../styles/home.module.css';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();

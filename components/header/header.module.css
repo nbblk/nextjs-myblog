@@ -6,7 +6,7 @@
   position: fixed;
   border-bottom: 1px solid var(--border-color);
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   z-index: 1;
   background-color: var(--background-color);
@@ -14,5 +14,24 @@
 
 .title {
   text-decoration: none;
-  color: #000;
+}
+
+.menus {
+  display: flex;  
+}
+
+.menus a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: small;
+  margin: 0 10px;
+}
+.menus a:hover {
+  color: var(--hover-color);
+}
+
+@media (max-width: 450px) {
+  .menus { 
+    display: none;
+  }
 }

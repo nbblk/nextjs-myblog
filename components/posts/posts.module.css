@@ -26,9 +26,8 @@
 
 .date {
     text-align: right;
-    font-size: 12pt;
+    font-size: small;
     font-family: serif;
-    font-style: italic;
 }
 
 @media(max-width: 450px) {

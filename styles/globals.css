@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 :root {
   --background-color: #f3f3f3;
-  --border-color: #7e7e7e;
+  --border-color: #000;
+  --font-color: #000;
+  --hover-color: #7e7e7e;
+  --loader-color: #7e7e7e;
 }
 
 * {
@@ -16,6 +19,7 @@ body {
   height: 100vh;
   background-color: var(--background-color);
   font-family: "Questrial", sans-serif;
+  color: var(--font-color);
 }
 
 pre, a {
