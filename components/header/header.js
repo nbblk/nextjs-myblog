@@ -1,16 +1,20 @@
 import React from "react";
 import Link from "next/link";
 
-import styles from "./header.module.css";
+import styles from "../../styles/header.module.css";
 
 const header = (props) => {
   return (
     <header className={styles.header}>
-      <title>Blake Sim - Portfolio</title>
+      <title>Blake Sim</title>
       <link rel="icon" href="/favicon.ico" />
-        <Link href="/" className={styles.title}>
-          <p>{props.title}</p>
+      <div className={styles.menus}>
+      {props.menus.map((item, index) => (
+        <Link key={index} href={item.path} className={styles.title}>
+          <a>{item.title}</a>
         </Link>
+      ))}
+      </div>
     </header>
   );
 };
