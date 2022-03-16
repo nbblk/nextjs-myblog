@@ -6,3 +6,9 @@
   justify-content: center;
   flex-flow: wrap-reverse;
 }
+
+@media (min-width: 360px) {
+  .projects {
+    flex-flow: wrap;
+  }
+}

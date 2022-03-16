@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./project/project";
 
-import styles from "./projects.module.css";
+import styles from "../../styles/projects.module.css";
 
 const projects = (props) => {
   return (
@@ -15,6 +15,8 @@ const projects = (props) => {
             img={project.img}
             link={project.link}
             readme={project.readme}
+            description={project.description}
+            technologies={project.technologies}
           />
         );
       })}
