@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Projects from "../components/projects/Projects";
 
 import { getSortedProjectsData } from "../lib/projects";
