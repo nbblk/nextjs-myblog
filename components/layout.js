@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "./header/header";
 import Sidebar from "./sidebar/sidebar";
 
-import styles from "../styles/home.module.css";
+import styles from "../styles/Home.module.css";
 
 export default function Layout({ children, home, about }) {
   const menus = [
