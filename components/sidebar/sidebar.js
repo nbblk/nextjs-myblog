@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
-import styles from "./sidebar.module.css";
+import styles from "./Sidebar.module.css";
 
-const sidebar = (props) => {
+const Sidebar = (props) => {
   return (
     <aside>
       <div className={styles.toggler}>
@@ -23,4 +23,4 @@ const sidebar = (props) => {
   );
 };
 
-export default sidebar;
+export default Sidebar;

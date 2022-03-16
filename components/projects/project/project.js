@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "../../../styles/project.module.css";
+import styles from "./Project.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const project = (props) => {
+const Project = (props) => {
   return (
     <section className={styles.project}>
       <h3 className={styles.title}>{props.title}</h3>
@@ -39,4 +39,4 @@ const project = (props) => {
   );
 };
 
-export default project;
+export default Project;

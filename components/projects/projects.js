@@ -1,9 +1,9 @@
 import React from "react";
-import Project from "./project/project";
+import Project from "./project/Project";
 
-import styles from "../../styles/projects.module.css";
+import styles from "./Projects.module.css";
 
-const projects = (props) => {
+const Projects = (props) => {
   return (
     <ul className={styles.projects}>
       {props.projects.map((project, index) => {
@@ -24,4 +24,4 @@ const projects = (props) => {
   );
 };
 
-export default projects;
+export default Projects;

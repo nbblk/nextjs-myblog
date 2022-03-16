@@ -2,13 +2,15 @@
   margin-top: 10rem;  
   padding: 1.5rem;
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
-  flex-flow: wrap-reverse;
+  align-items: center;
+  flex-flow: wrap;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 450px) {
   .projects {
-    flex-flow: wrap;
+    flex-direction: column;
+    align-content: center;
   }
 }

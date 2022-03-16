@@ -1,9 +1,9 @@
-import Posts from "../components/posts/posts";
-import Layout from "../components/layout";
+import Posts from "../components/posts/Posts";
+import Layout from "../components/Layout";
 
 import { getSortedPostsData } from "../lib/posts";
 import { useEffect, useState } from "react";
-import styles from "../styles/posts.module.css";
+import styles from "../styles/Posts.module.css";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();

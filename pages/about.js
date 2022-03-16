@@ -1,6 +1,6 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
-import styles from "../styles/about.module.css";
+import styles from "../styles/About.module.css";
 
 function About() {
   return (

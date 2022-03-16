@@ -1,9 +1,9 @@
 import React from "react";
 
-import styles from "./posts.module.css";
+import styles from "./Posts.module.css";
 import Link from "next/link";
 
-const posts = (props) => {
+const Posts = (props) => {
   return (
     <ul className={styles.posts}>
         {props.posts.map((post, index) => {
@@ -20,4 +20,4 @@ const posts = (props) => {
   );
 };
 
-export default posts;
+export default Posts;

@@ -1,8 +1,8 @@
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Link from 'next/link';
 
-import styles from "../../styles/post.module.css";
+import styles from "../../styles/Post.module.css";
 
 export default function Post({ postData }) {
   return (

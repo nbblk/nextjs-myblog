@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import Projects from "../components/projects/projects";
+import Projects from "../components/projects/Projects";
 
 import { getSortedProjectsData } from "../lib/projects";
 

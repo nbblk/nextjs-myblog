@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
-import styles from "../../styles/header.module.css";
+import styles from "./Header.module.css";
 
-const header = (props) => {
+const Header = (props) => {
   return (
     <header className={styles.header}>
       <title>Blake Sim</title>
@@ -19,4 +19,4 @@ const header = (props) => {
   );
 };
 
-export default header;
+export default Header;
